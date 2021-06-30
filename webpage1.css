@@ -1,0 +1,175 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    font-size: 20px;
+    color: white;
+    overflow: hidden;
+}
+
+
+header{
+    background-image: linear-gradient(rgba(0.5,0,0,0),rgba(0.5,0,0,0)),url('../images/image6.jpeg');
+    background-size: cover;
+    height:100vh;
+
+}
+.clearfix:after{
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0px;
+    clear:both;
+}
+.row{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+.logo{
+    height: 120px;
+    width: auto;
+    float:left;
+    margin-top: 20px;
+}
+.main-nav{
+    float: right;
+    margin-top: 60px;
+}
+.main-nav li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+}
+.main-nav li a{
+    padding: 5px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    font-weight: 100;
+    
+}
+.main-nav li a:hover{
+    border-bottom:2px solid black;
+}
+
+.main-content-header{
+    position: absolute;
+   /* border:1px solid black;*/
+    width: 1180px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);  
+}
+h1{
+    color: white;
+    font-size:200%;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    
+   
+}
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: lighter;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 200px;
+    transition: background-color 0.2s,border 0.2s,color 0.2;
+}
+.btn-first{
+    background-color: transparent;
+    color:white;
+    margin-right: 15px;
+    border:1px solid aqua;
+    
+}
+.btn-first:hover{
+    background-color:darkorange;
+}
+.btn-second{
+    background-color: transparent;
+    color: white;
+    margin-right: 15px;
+     border:1px solid aqua;
+    
+}
+.btn-second:hover{
+    background-color:darkorange;
+}
+
+.btn-third{
+    background-color: transparent;
+    color: white;
+    margin-right: 15px;
+     border:1px solid aqua;
+    
+}
+.btn-third:hover{
+    background-color:darkorange;
+}
+
+.btn-fourth{
+    background-color: transparent;
+    color: white;
+    margin-right: 15px;
+     border:1px solid aqua;
+    
+}
+.btn-fourth:hover{
+    background-color:darkorange;
+}
+
+.mobile-icon{display: none;}
+
+@media only screen and (max-width: 1180px){
+    .main-content-header{
+        width:100%;
+        padding:0 2%;
+    }
+}
+
+@media only screen and (max-width: 998px){
+    h1{font-size: 200%;
+    }
+}
+@media only screen and (max-width: 768px){
+    h1{font-size: 90%;
+    }
+    .main-nav{display:none;}
+    
+    .mobile-icon{
+     display: inline-block;
+     color:white;
+     float:right;
+     margin-top: 30px;
+     margin-right:20px;
+       
+     }
+   
+    .main-nav li{
+       
+        display: block;
+        font-size: 80%;
+        margin-top: 2px;
+        margin-left: 5px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
