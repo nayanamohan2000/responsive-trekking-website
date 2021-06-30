@@ -1,0 +1,172 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+    margin-bottom: 25px;
+}
+    .btn{
+    display: inline-block;
+    padding: 6px 15px;
+    font-weight: lighter;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 300px;
+    transition: background-color 0.2s,border 0.2s,color 0.2;
+}
+    .btn-first{
+    background-color: transparent;
+    color:black;
+    margin-right: 15px;
+    border:1px solid black;
+    
+}
+.btn-first:hover{
+    background-color:darkorange;
+}
+</style>
+</head>
+<body>
+     <a href="D:\6th sem web project\webpage1.html">HOME</a>
+<h2  style="text-align:center"> Best Treks to do from July Onwards</h2>
+
+
+    <h3  style="text-align:center"><p>(Trekkers are signing up for their future treks right now. Plan soon!)</p></h3>
+
+<div>    
+ <div class="column">
+    <div class="card">
+      <img src="D:\6th sem web project\images\hampta.jpg" width="250" height="250">
+      <p><b>Hampta Pass Trek</b></p>
+        <p><b>Moderate</b></p>
+      <p>16,105 ft &nbsp; &nbsp;9 days &nbsp; &nbsp;Rs 9,950 </p>
+      <a href="http://localhost:8090/login-jsp-servlet-jdbc-example/login.jsp"class="btn btn-first">Check Out</a>
+    </div>
+</div>
+
+  <div class="column">
+    <div class="card">
+      <img src="D:\6th sem web project\images\valleyofflowers.jpeg" width="250" height="250">
+      <p><b>Valley Of Flowers Trek</b></p>
+         <p><b>Moderate</b></p>
+      <p>14,400 ft &nbsp; &nbsp;6 days  &nbsp; &nbsp;Rs 6,850</p>
+<!--      <a href="D:\6th sem web project\upcomingtreks.html" class="btn btn-first">Upcoming Treks</a>-->
+         <a href="http://localhost:8090/login-jsp-servlet-jdbc-example/login.jsp"class="btn btn-first">Check Out</a>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="D:\6th sem web project\images\phinbhaba.jpg" width="250" height="250">
+      <p><b>Pin Bhaba Pass Trek</b></p>
+         <p><b>Difficult</b></p>
+      <p>16,105 ft &nbsp; &nbsp;9 days &nbsp; &nbsp;Rs 10,000</p>
+<!--      <a href="D:\6th sem web project\upcomingtreks.html" class="btn btn-first">Upcoming Treks</a>-->
+         <a href="http://localhost:8090/login-jsp-servlet-jdbc-example/login.jsp"class="btn btn-first">Check Out</a>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="D:\6th sem web project\images\brighulake.jpg" width="250" height="250">
+      <p><b>Bhrigu Lake Trek</b></p>
+         <p><b>Easy</b></p>
+      <p>14,005 ft &nbsp; &nbsp;4 days &nbsp; &nbsp;Rs 3,000</p>
+<!--      <a href="D:\6th sem web project\upcomingtreks.html" class="btn btn-first">Upcoming Treks</a>-->
+         <a href="http://localhost:8090/login-jsp-servlet-jdbc-example/login.jsp"class="btn btn-first">Check Out</a>
+    </div>
+  </div>
+
+    <br>
+    
+     <div class="column">
+    <div class="card">
+       <img src="D:\6th sem web project\images\tarsarmarsar.jpg" width="250" height="250">
+      <p><b>Tarsar Marsar Trek</b></p>
+         <p><b>Difficult</b></p>
+      <p>13,201 ft &nbsp; &nbsp;7 days &nbsp; &nbsp;Rs 7,000</p>
+<!--      <a href="D:\6th sem web project\upcomingtreks.html" class="btn btn-first">Upcoming Treks</a>-->
+         <a href="http://localhost:8090/login-jsp-servlet-jdbc-example/login.jsp"class="btn btn-first">Check Out</a>
+    </div>
+  </div>
+    
+    
+  <div class="column">
+    <div class="card">
+       <img src="D:\6th sem web project\images\beaskundlake.jpg"width="250" height="250">
+      <p><b>Beas Kund Trek</b></p>
+         <p><b>Easy</b></p>
+      <p>12,772 ft &nbsp; &nbsp;4 days&nbsp;&nbsp;Rs 5,899</p>
+<!--      <a href="D:\6th sem web project\upcomingtreks.html" class="btn btn-first">Upcoming Treks</a>-->
+         <a href="http://localhost:8090/login-jsp-servlet-jdbc-example/login.jsp"class="btn btn-first">Check Out</a>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+       <img src="D:\6th sem web project\images\kashmirlake.jpg" width="250" height="250">
+      <p><b>The Kashmir Lake Trek</b></p>
+        <p><b>Moderate</b></p>
+      <p>13,800ft &nbsp; &nbsp;7 days&nbsp; &nbsp;Rs 6,490</p>
+<!--      <a href="D:\6th sem web project\upcomingtreks.html" class="btn btn-first">Upcoming Treks</a>-->
+         <a href="http://localhost:8090/login-jsp-servlet-jdbc-example/login.jsp"class="btn btn-first">Check Out</a>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="D:\6th sem web project\images\himalays.jpeg" width="250" height="250">
+      <p><b>The Himalaya Trek</b></p>
+        <p><b>Difficult</b></p>
+      <p>17,480 ft &nbsp; &nbsp;13 days &nbsp; &nbsp;Rs 12,000</p>
+<!--      <a href="D:\6th sem web project\upcomingtreks.html" class="btn btn-first">Upcoming Treks</a>-->
+         <a href="http://localhost:8090/login-jsp-servlet-jdbc-example/login.jsp"class="btn btn-first">Check Out</a>
+    </div>
+  </div>
+    </div>
+
+
+</body>
+</html>
